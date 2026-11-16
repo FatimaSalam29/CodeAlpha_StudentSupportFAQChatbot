@@ -53,7 +53,7 @@ export class FaqMatcher {
 
     const docs = phrases.map((p) => preprocess(p.phrase));
     this.vectorizer.fit(docs);
-    this.index = phrases.map((p, i) => ({ ...p, vector: this.vectorizer.transform(docs[i]) }));
+    this.index = phrases.map((p, i) => ({ ...p, vector: this.vectorizer.transform(docs[i] ?? []) }));
   }
 
   get size(): number {
@@ -72,8 +72,9 @@ export class FaqMatcher {
     for (const item of this.index) {
       const score = cosineSimilarity(qVec, item.vector);
       const current = best.get(item.faqIndex);
-      if (!current || score > current.score) {
-        best.set(item.faqIndex, { faq: this.faqs[item.faqIndex], score, matchedPhrase: item.phrase });
+      const faq = this.faqs[item.faqIndex];
+      if (faq && (!current || score > current.score)) {
+        best.set(item.faqIndex, { faq, score, matchedPhrase: item.phrase });
       }
     }
     const ranked = [...best.values()].sort((a, b) => b.score - a.score);

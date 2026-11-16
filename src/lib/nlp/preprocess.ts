@@ -45,7 +45,7 @@ export function tokenize(text: string): string[] {
   const out: string[] = [];
   for (const raw of normalize(text).split(" ")) {
     if (!raw) continue;
-    const mapped = raw in ABBREVIATIONS ? ABBREVIATIONS[raw] : raw;
+    const mapped = ABBREVIATIONS[raw] ?? raw;
     for (const piece of mapped.split(" ")) if (piece) out.push(piece);
   }
   return out;

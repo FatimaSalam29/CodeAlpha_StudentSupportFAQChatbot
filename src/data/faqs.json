@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "title": "Student Support FAQ — Demonstration Dataset",
+    "version": "1.0.0",
+    "disclaimer": "Demonstration content only. These answers are generic guidance, not the official policy of any university. Always confirm details with your own institution."
+  },
+  "faqs": [
+    {
+      "id": "admissions-apply",
+      "category": "Admissions",
+      "question": "How do I apply for admission?",
+      "alternates": ["What is the admission process?", "How can I get admission?", "Steps to apply for a program", "How to submit an admission application"],
+      "answer": "Admission usually starts on your institution's official admissions portal. Create an applicant account, choose your program, fill in the online form, upload the requested documents and submit before the published deadline. Check the official admissions page for the exact steps that apply to you."
+    },
+    {
+      "id": "admissions-eligibility",
+      "category": "Eligibility",
+      "question": "What are the eligibility criteria for admission?",
+      "alternates": ["Am I eligible to apply?", "What qualifications do I need to get admitted?", "Minimum requirements for admission", "Who can apply for this program?"],
+      "answer": "Eligibility normally depends on your previous qualification, the subjects you studied and the minimum grades set for each program. Some programs also require an entry test or interview. Look up the specific program on your institution's official website for its current criteria."
+    },
+    {
+      "id": "admissions-documents",
+      "category": "Applications",
+      "question": "Which documents are required for the application?",
+      "alternates": ["What documents do I need to upload?", "Required papers for admission", "What should I attach with my application form?"],
+      "answer": "Applications commonly ask for academic transcripts or certificates, a valid identity document, a recent photograph and, for some programs, a personal statement or recommendation letters. The official application checklist of your institution lists exactly what is needed."
+    },
+    {
+      "id": "applications-status",
+      "category": "Applications",
+      "question": "How can I check my application status?",
+      "alternates": ["Has my application been accepted?", "Track my admission application", "Where can I see the status of my application?"],
+      "answer": "Most institutions let you track your application by signing in to the same applicant portal you used to apply. Status updates and offer letters are usually also sent to your registered email address, so check your inbox and spam folder."
+    },
+    {
+      "id": "applications-deadline",
+      "category": "Applications",
+      "question": "What is the last date to submit the application?",
+      "alternates": ["When is the application deadline?", "Admission closing date", "Can I apply after the deadline?"],
+      "answer": "Deadlines differ by institution, program and intake, so this assistant does not list dates. Please check the official admissions calendar of your institution. Late applications are accepted only if the institution explicitly allows them."
+    },
+    {
+      "id": "applications-edit",
+      "category": "Applications",
+      "question": "Can I edit my application after submitting it?",
+      "alternates": ["I made a mistake in my application form", "How to correct details in a submitted application", "Change information in my admission form"],
+      "answer": "Some portals allow edits until the deadline, while others lock the form after submission. If you cannot edit it yourself, contact your institution's admissions office through its official channels and explain the correction you need."
+    },
+    {
+      "id": "fees-structure",
+      "category": "Fees",
+      "question": "Where can I find the fee structure?",
+      "alternates": ["How much is the tuition fee?", "What are the fees for my program?", "Tuition charges per semester"],
+      "answer": "Fee amounts vary by institution and program, so this demonstration assistant does not quote figures. The official fee schedule is normally published on your institution's finance or admissions page and in your student portal."
+    },
+    {
+      "id": "fees-payment",
+      "category": "Fees",
+      "question": "How do I pay my fees?",
+      "alternates": ["What are the fee payment methods?", "Can I pay tuition online?", "How to submit my fee challan or invoice"],
+      "answer": "Institutions typically offer options such as online payment through the student portal, bank transfer or a printed fee voucher paid at an authorised bank. Keep your payment receipt and confirm that the payment appears in your student account."
+    },
+    {
+      "id": "fees-installments",
+      "category": "Fees",
+      "question": "Can I pay my fees in installments?",
+      "alternates": ["Is there an installment plan for tuition?", "Split fee payment into parts", "I cannot pay the full fee at once"],
+      "answer": "Some institutions offer installment plans on request. Contact your institution's finance or accounts office early, before the fee due date, to ask whether a plan is available and what the conditions are."
+    },
+    {
+      "id": "fees-refund",
+      "category": "Fees",
+      "question": "What is the fee refund policy?",
+      "alternates": ["Will I get my fee back if I withdraw?", "How do I request a refund?", "Refund of tuition after dropping a course"],
+      "answer": "Refund rules depend on your institution's official policy and usually on when you withdraw. Read the refund policy published by your institution and submit any refund request through its finance office."
+    },
+    {
+      "id": "attendance-requirement",
+      "category": "Attendance",
+      "question": "What is the minimum attendance requirement?",
+      "alternates": ["How much attendance is required?", "Attendance percentage needed to sit the exam", "Is attendance compulsory?"],
+      "answer": "Most institutions set a minimum attendance level that students must meet to be allowed into final exams. The exact percentage is defined in your institution's academic regulations, so check the student handbook or ask your department."
+    },
+    {
+      "id": "attendance-short",
+      "category": "Attendance",
+      "question": "What happens if my attendance is short?",
+      "alternates": ["My attendance is low what should I do", "Missed too many classes", "Attendance shortage consequences"],
+      "answer": "Low attendance can stop you from sitting the final exam of that course. Speak to your course instructor or academic advisor as early as possible. If you missed classes for a valid reason, ask how to submit supporting documents."
+    },
+    {
+      "id": "attendance-leave",
+      "category": "Attendance",
+      "question": "How do I apply for leave from classes?",
+      "alternates": ["Request leave for medical reasons", "I am sick and cannot attend class", "Submit a leave application"],
+      "answer": "Leave requests are usually submitted to your department or through the student portal, together with supporting documents such as a medical certificate. Submit the request as soon as possible and keep a copy for your records."
+    },
+    {
+      "id": "exams-schedule",
+      "category": "Exams",
+      "question": "When will the exam schedule be announced?",
+      "alternates": ["Where is the date sheet?", "Exam timetable for this semester", "When are the final exams?"],
+      "answer": "Exam schedules are published by the examinations office, usually on the student portal or official notice board. Dates are set by each institution, so check those official channels regularly."
+    },
+    {
+      "id": "exams-missed",
+      "category": "Exams",
+      "question": "What should I do if I miss an exam?",
+      "alternates": ["I was absent in my exam", "Can I retake a missed exam?", "Missed final exam due to illness"],
+      "answer": "Contact your department or examinations office immediately. Many institutions have a process for missed exams due to genuine reasons such as illness, which usually requires an application with supporting documents."
+    },
+    {
+      "id": "exams-admit-card",
+      "category": "Exams",
+      "question": "How do I get my exam admit card?",
+      "alternates": ["Download roll number slip", "Where is my exam entry card?", "Hall ticket for the examination"],
+      "answer": "Admit cards or exam slips are commonly downloaded from the student portal before the exams begin. If yours is missing, check for unpaid fees or attendance issues and contact the examinations office."
+    },
+    {
+      "id": "exams-rules",
+      "category": "Exams",
+      "question": "What items are allowed in the exam hall?",
+      "alternates": ["Can I bring my phone to the exam?", "Exam hall rules", "Is a calculator allowed in exams?"],
+      "answer": "Exam rules are set by your institution. Generally you should bring your student ID and admit card, and you should not bring phones or unauthorised materials. Follow the instructions printed on your admit card and those given by invigilators."
+    },
+    {
+      "id": "results-check",
+      "category": "Results",
+      "question": "How can I check my exam results?",
+      "alternates": ["Where are the results published?", "When will results be announced?", "See my grades online"],
+      "answer": "Results are normally published on the student portal or official results page after the examinations office approves them. Sign in with your student credentials to view your grades."
+    },
+    {
+      "id": "results-recheck",
+      "category": "Results",
+      "question": "How do I apply for rechecking of my paper?",
+      "alternates": ["I am not satisfied with my grade", "Request re-evaluation of exam", "Grade appeal process"],
+      "answer": "Most institutions allow a rechecking or grade appeal request within a limited period after results are announced. Submit the request through the examinations office or student portal according to your institution's official procedure."
+    },
+    {
+      "id": "results-transcript",
+      "category": "Results",
+      "question": "How do I get my official transcript?",
+      "alternates": ["Request a transcript", "Get my degree certificate", "Apply for academic record"],
+      "answer": "Official transcripts and certificates are issued by the registrar or examinations office. You usually submit a request form, sometimes with a processing fee, and collect the document or receive it by post."
+    },
+    {
+      "id": "scholarships-available",
+      "category": "Scholarships",
+      "question": "Are scholarships available for students?",
+      "alternates": ["What scholarships can I get?", "Financial aid options", "Merit and need based scholarships"],
+      "answer": "Many institutions offer merit-based and need-based scholarships, and external organisations may offer more. Visit your institution's financial aid or scholarships office page to see what is currently offered."
+    },
+    {
+      "id": "scholarships-apply",
+      "category": "Scholarships",
+      "question": "How do I apply for a scholarship?",
+      "alternates": ["Scholarship application process", "Where to submit scholarship form", "Steps to get financial assistance"],
+      "answer": "Read the eligibility rules of the scholarship first, then complete the official application form and attach the requested documents, such as academic records or proof of income. Submit before the scholarship deadline announced by your institution."
+    },
+    {
+      "id": "library-hours",
+      "category": "Library",
+      "question": "What are the library timings?",
+      "alternates": ["When is the library open?", "Library opening hours", "Is the library open on weekends?"],
+      "answer": "Library hours are set by each institution and may change during exams or holidays. Check the library page on your institution's website or the notice at the library entrance."
+    },
+    {
+      "id": "library-borrow",
+      "category": "Library",
+      "question": "How can I borrow books from the library?",
+      "alternates": ["Issue a book from library", "How many books can I borrow?", "Library membership card"],
+      "answer": "You can usually borrow books with your student ID or library card at the circulation desk. Borrowing limits and loan periods are set by the library, so ask library staff or read the library rules."
+    },
+    {
+      "id": "library-online",
+      "category": "Library",
+      "question": "How do I access online library resources?",
+      "alternates": ["E-books and journals access", "Digital library login", "Access research databases from home"],
+      "answer": "Many libraries provide e-books, journals and databases through a digital library portal that you sign in to with your student credentials. Ask the library help desk if you have trouble accessing it off campus."
+    },
+    {
+      "id": "lms-login",
+      "category": "LMS",
+      "question": "How do I log in to the LMS?",
+      "alternates": ["Learning management system access", "I cannot sign in to the LMS", "Forgot my LMS password"],
+      "answer": "Use the student username and password issued by your institution to sign in to the learning management system. If you forgot your password, use the reset link on the login page, or contact the IT help desk if the problem continues."
+    },
+    {
+      "id": "lms-assignments",
+      "category": "LMS",
+      "question": "How do I submit assignments on the LMS?",
+      "alternates": ["Upload my assignment online", "Where do I submit coursework?", "Assignment submission portal"],
+      "answer": "Open the course page in the LMS, go to the assignment activity, upload your file in the accepted format and confirm the submission before the deadline set by your instructor. Check that a submission confirmation appears."
+    },
+    {
+      "id": "registration-courses",
+      "category": "Course Registration",
+      "question": "How do I register for courses?",
+      "alternates": ["Course enrollment process", "Enroll in subjects for next semester", "Select my courses"],
+      "answer": "Course registration is usually done through the student portal during the registration window announced by your institution. Choose your courses, check for timetable clashes and confirm your registration. Your academic advisor can help you plan."
+    },
+    {
+      "id": "registration-add-drop",
+      "category": "Course Registration",
+      "question": "Can I add or drop a course?",
+      "alternates": ["How to withdraw from a course", "Change my registered courses", "Drop a subject after registration"],
+      "answer": "Most institutions have an add/drop period at the start of the semester when you can change courses. After that period, withdrawing may have academic or financial consequences. Check your institution's academic calendar and policy."
+    },
+    {
+      "id": "timetable-view",
+      "category": "Timetables",
+      "question": "Where can I see my class timetable?",
+      "alternates": ["Class schedule for this semester", "My lecture timings", "Where is the timetable published?"],
+      "answer": "Class timetables are normally available on the student portal or LMS after course registration, and sometimes on department notice boards. Check them regularly in case rooms or times change."
+    },
+    {
+      "id": "timetable-clash",
+      "category": "Timetables",
+      "question": "What should I do if two of my classes clash?",
+      "alternates": ["Timetable clash between courses", "Two lectures at the same time", "Overlapping class schedule"],
+      "answer": "Contact your academic advisor or department office as soon as you notice a clash. They can help you change sections or courses during the add/drop period."
+    },
+    {
+      "id": "support-counseling",
+      "category": "Student Support",
+      "question": "Is counseling available for students?",
+      "alternates": ["I feel stressed and need someone to talk to", "Mental health support", "Student wellbeing services"],
+      "answer": "Many institutions provide free and confidential counseling or wellbeing services. Look for the student support or counseling page on your institution's website. If you are in immediate danger, contact local emergency services right away."
+    },
+    {
+      "id": "support-contact",
+      "category": "Student Support",
+      "question": "How can I contact student support?",
+      "alternates": ["Who do I talk to for help?", "Student help desk", "Get in touch with the student affairs office"],
+      "answer": "Use the official contact details listed on your institution's website or student portal for the student affairs office or help desk. This demonstration assistant does not provide real contact numbers or emails."
+    },
+    {
+      "id": "support-id-card",
+      "category": "Student Support",
+      "question": "How do I get a student ID card?",
+      "alternates": ["Lost my student card", "Replace my ID card", "Apply for a new student card"],
+      "answer": "New and replacement student ID cards are usually issued by the student affairs or admissions office. For a lost card, report it promptly and follow the replacement procedure, which may involve a form and a fee."
+    },
+    {
+      "id": "support-hostel",
+      "category": "Student Support",
+      "question": "How do I apply for hostel accommodation?",
+      "alternates": ["Is hostel available?", "Student housing application", "Dormitory room on campus"],
+      "answer": "If your institution offers housing, applications are usually made through the hostel or housing office, often with limited places. Check the official accommodation page for availability and how to apply."
+    },
+    {
+      "id": "general-greeting",
+      "category": "General",
+      "question": "Hello",
+      "alternates": ["Hi there", "Good morning", "Hey", "Thank you", "Thanks for your help"],
+      "answer": "Hello! I'm the Student Support FAQ assistant. Ask me about admissions, fees, attendance, exams, results, scholarships, the library, the LMS, course registration, timetables or student support."
+    }
+  ]
+}

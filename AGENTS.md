@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+<!-- AGENT-MEMORY:BEGIN -->
+- NLP matcher in `src/lib/nlp` stays pure TS with no UI imports — keeps it testable and reusable.
+- No Node-only NLP libraries (e.g. `natural`) — the app must run in the browser and Workers.
+- GitHub Pages uses a separate static build (`vite.pages.config.ts`, `pages/`, `src/pages-main.tsx`) rendering `<ChatBot />` — Pages cannot run the SSR server; base path must equal the repo name.
+<!-- AGENT-MEMORY:END -->
